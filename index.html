@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Restoran Šarm — Vodice</title>
-<meta name="description" content="Restoran Šarm na Plavoj plaži u Vodicama — uz more, otvoreno cijele godine. Svježa riba, jela sa žara, domaća tjestenina i pizza. Grijana terasa s pogledom na more, parking, dostava." />
+<meta name="description" content="Restoran Šarm na Plavoj plaži u Vodicama — uz more, otvoreno cijele godine. Svježa riba, jela sa žara, domaća tjestenina i pizza. Natkrivena terasa s pogledom na more, parking, dostava." />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏖️</text></svg>" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -316,6 +316,36 @@
     html{scroll-behavior:auto;}
   }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Restoran Šarm",
+  "description": "Restoran na Plavoj plaži u Vodicama, uz more. Svježa riba, jela sa žara, pizza iz peći i tjestenina. Otvoreno cijele godine.",
+  "servesCuisine": ["Mediteranska", "Dalmatinska", "Riba i plodovi mora", "Roštilj", "Pizza"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Blata",
+    "addressLocality": "Vodice",
+    "postalCode": "22211",
+    "addressRegion": "Šibensko-kninska županija",
+    "addressCountry": "HR"
+  },
+  "telephone": "+385914550189",
+  "url": "https://artme-nx.github.io/restoran-sarm-v3/",
+  "sameAs": [
+    "https://www.facebook.com/SarmRestoran",
+    "https://www.instagram.com/restoransarm/"
+  ],
+  "acceptsReservations": "True",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "08:00",
+    "closes": "00:00"
+  }]
+}
+</script>
 </head>
 <body>
 
@@ -350,9 +380,9 @@
 <!-- HERO -->
 <section class="hero" id="top">
   <div class="hero-slides" id="heroSlides">
-    <div class="hero-slide active" style="background-image:url('https://loremflickr.com/1920/1280/beach,sea,adriatic?lock=11')"></div>
-    <div class="hero-slide" style="background-image:url('https://loremflickr.com/1920/1280/adriatic,coast,sunset?lock=12')"></div>
-    <div class="hero-slide" style="background-image:url('https://loremflickr.com/1920/1280/seaside,beach,summer?lock=13')"></div>
+    <div class="hero-slide active" style="background-image:url('img/sarm-terasa-plaza.webp')"></div>
+    <div class="hero-slide" style="background-image:url('img/sarm-pizza-rikula.webp')"></div>
+    <div class="hero-slide" style="background-image:url('img/sarm-plata-burger.webp')"></div>
   </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
@@ -375,7 +405,7 @@
 <!-- INTRO -->
 <section class="intro">
   <div class="wrap">
-    <span class="eyebrow">Vodice · Blata 12</span>
+    <span class="eyebrow">Vodice · Blata</span>
     <p data-reveal>Restoran na <em>Plavoj plaži</em> u Vodicama, doslovno uz more — otvoren <em>cijele godine</em>, od jutarnje kave do večere pod zvijezdama.</p>
   </div>
 </section>
@@ -390,7 +420,7 @@
     </div>
     <div class="ponuda-grid">
       <article class="pcard" data-reveal>
-        <div class="img" style="background-image:url('https://loremflickr.com/900/1200/seafood,fish,plate?lock=21')"></div>
+        <div class="img" style="background-image:url('img/sarm-lignje.webp')"></div>
         <div class="grad"></div>
         <div class="body">
           <span class="num">01</span>
@@ -399,7 +429,7 @@
         </div>
       </article>
       <article class="pcard" data-reveal>
-        <div class="img" style="background-image:url('https://loremflickr.com/900/1200/grilled,fish,bbq?lock=22')"></div>
+        <div class="img" style="background-image:url('img/sarm-meso-plata.webp')"></div>
         <div class="grad"></div>
         <div class="body">
           <span class="num">02</span>
@@ -408,7 +438,7 @@
         </div>
       </article>
       <article class="pcard" data-reveal>
-        <div class="img" style="background-image:url('https://loremflickr.com/900/1200/pizza,pasta,italian?lock=23')"></div>
+        <div class="img" style="background-image:url('img/sarm-pizza-burrata.webp')"></div>
         <div class="grad"></div>
         <div class="body">
           <span class="num">03</span>
@@ -461,12 +491,12 @@
   <div class="wrap">
     <div class="beach-grid">
       <div class="beach-img" data-reveal>
-        <div class="img" style="background-image:url('https://loremflickr.com/1000/1250/beach,sea,umbrella?lock=31')"></div>
+        <div class="img" style="background-image:url('img/sarm-terasa-plaza.webp')"></div>
       </div>
       <div class="beach-text" data-reveal>
         <span class="eyebrow">Na Plavoj plaži</span>
         <h2>More na dohvat ruke</h2>
-        <p class="lead">Sjedite na pijesku Plave plaže dok valovi šume metar od stola. Po hladnijim danima naša grijana terasa drži ljeto na okupu — pogled na more ostaje isti, cijele godine.</p>
+        <p class="lead">Sjedite na pijesku Plave plaže dok valovi šume metar od stola. Po hladnijim danima naša natkrivena terasa drži ljeto na okupu — pogled na more ostaje isti, cijele godine.</p>
         <div class="features">
           <div class="feature">
             <div class="ico">🌊</div>
@@ -474,7 +504,7 @@
           </div>
           <div class="feature">
             <div class="ico">🔥</div>
-            <div><h4>Grijana terasa</h4><p>Pogled na more i kad zahladi</p></div>
+            <div><h4>Natkrivena terasa</h4><p>Pogled na more i kad zahladi</p></div>
           </div>
           <div class="feature">
             <div class="ico">🗓️</div>
@@ -502,13 +532,13 @@
   <div class="wrap">
     <div class="swiper gswiper" id="gallerySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('https://loremflickr.com/900/675/seafood,fish?lock=41')"></div></div></div>
-        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('https://loremflickr.com/900/675/beach,sea?lock=42')"></div></div></div>
-        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('https://loremflickr.com/900/675/grilled,fish?lock=43')"></div></div></div>
-        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('https://loremflickr.com/900/675/pizza?lock=44')"></div></div></div>
-        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('https://loremflickr.com/900/675/adriatic,coast?lock=45')"></div></div></div>
-        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('https://loremflickr.com/900/675/sunset,sea?lock=46')"></div></div></div>
-        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('https://loremflickr.com/900/675/terrace,restaurant,sea?lock=47')"></div></div></div>
+        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('img/sarm-lignje-plata.webp')"></div></div></div>
+        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('img/sarm-terasa-plaza.webp')"></div></div></div>
+        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('img/sarm-meso-nabodalu.webp')"></div></div></div>
+        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('img/sarm-peka.webp')"></div></div></div>
+        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('img/sarm-dagnje.webp')"></div></div></div>
+        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('img/sarm-burger.webp')"></div></div></div>
+        <div class="swiper-slide"><div class="gslide"><div class="img" style="background-image:url('img/sarm-lepinje-plata.webp')"></div></div></div>
       </div>
     </div>
     <div class="gdrag"><span class="ln"></span> Povucite za više</div>
@@ -535,10 +565,10 @@
         <div class="hours-pills">
           <span class="pill">🥡 Dostava i za van</span>
           <span class="pill">🅿️ Parking</span>
-          <span class="pill">🔥 Grijana terasa</span>
+          <span class="pill">🔥 Natkrivena terasa</span>
         </div>
         <div style="margin-top:24px;font-size:14.5px;color:var(--muted);">
-          Blata 12, 22211 Vodice<br>Plava plaža · uz more
+          Blata, 22211 Vodice<br>Plava plaža · uz more
         </div>
       </div>
     </div>
@@ -551,7 +581,7 @@
     <div class="wrap" data-reveal>
       <span class="eyebrow">Lokacija</span>
       <h2>Pronađite nas</h2>
-      <p>Blata 12, 22211 Vodice — na Plavoj plaži, uz more</p>
+      <p>Blata, 22211 Vodice — na Plavoj plaži, uz more</p>
     </div>
   </div>
   <div class="map-wrap" data-reveal>
@@ -559,7 +589,7 @@
       title="Restoran Šarm Vodice — karta"
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
-      src="https://www.google.com/maps?q=Restoran%20%C5%A0arm%2C%20Blata%2012%2C%2022211%20Vodice&output=embed">
+      src="https://www.google.com/maps?q=Restoran%20%C5%A0arm%2C%20Blata%2C%2022211%20Vodice&output=embed">
     </iframe>
   </div>
 </section>
@@ -579,7 +609,7 @@
       <div>
         <h4>Kontakt</h4>
         <a href="tel:+385914550189">+385 91 455 0189</a>
-        <p class="fline">Blata 12</p>
+        <p class="fline">Blata</p>
         <p class="fline">22211 Vodice, Hrvatska</p>
         <p class="fline">Plava plaža · uz more</p>
       </div>
